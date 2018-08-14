@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Dev. Note"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "june0"
 description              : "An amazing website."
 url                      : "https://june0o.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "준영"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "건강한 개발자 입니다 :)"
+  location         : "pankyo"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "github.com/june0o"
   gitlab           :
   google_plus      :
   keybase          :
