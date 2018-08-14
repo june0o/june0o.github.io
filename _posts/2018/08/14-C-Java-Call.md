@@ -86,6 +86,7 @@ permalink: /C-Java-Call-page/
 Project Properties>C/C++>General>Additional include Directories 에 추가
 ex)
 %JAVA_HOME%\include;%JAVA_HOME%\include\win32
+
 ![b62d48e0](https://user-images.githubusercontent.com/38425370/44067002-459e9648-9fae-11e8-8f78-c65dbc83e03e.png)
 
 - jvm library path 설정
@@ -93,6 +94,7 @@ ex)
 Project Properties>Linker>General>Additional Library Directories 에 추가
 ex)
 %JAVA_HOME%\lib;%JAVA_HOME%\jre\bin\server
+
 ![70a252c7](https://user-images.githubusercontent.com/38425370/44067027-66001e48-9fae-11e8-92e2-168b32ecf6a0.png)
 
 - jvm library dependency 설정
