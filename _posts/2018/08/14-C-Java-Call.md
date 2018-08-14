@@ -86,30 +86,30 @@ permalink: /C-Java-Call-page/
 Project Properties>C/C++>General>Additional include Directories 에 추가
 ex)
 %JAVA_HOME%\include;%JAVA_HOME%\include\win32
-![set_jni_header_path.png](:note/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/b62d48e0.png)
+![set_jni_header_path.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/b62d48e0.png)
 
 - jvm library path 설정
 
 Project Properties>Linker>General>Additional Library Directories 에 추가
 ex)
 %JAVA_HOME%\lib;%JAVA_HOME%\jre\bin\server
-![set_jvm_path.png](:note/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/70a252c7.png)
+![set_jvm_path.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/70a252c7.png)
 
 - jvm library dependency 설정
 
 Project Properties>Linker>Input>Additional Dependencies 에 jvm.lib 추가
-![set_jvm_dependency.png](:note/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/2ebfc32f.png)
+![set_jvm_dependency.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/2ebfc32f.png)
 
 - Exception setting 수정
 
 Debug>Windows>Exception Settings
 Access violation 체크 해제. 해제하지 않으면 실행 시, Access violation error 발생한다.
-![set_exception.png](:note/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/8c1872f2.png)
+![set_exception.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/8c1872f2.png)
 
 - 실행
 
 Hello world 가 출력되는 것 확인.
-![run.png](:note/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/1973005f.png)
+![run.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/1973005f.png)
 
 #### 2) linux 환경
 - /lib64/ 에 libjvm.so 심볼릭 링크 걸어줘야 함
