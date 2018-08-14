@@ -86,30 +86,30 @@ permalink: /C-Java-Call-page/
 Project Properties>C/C++>General>Additional include Directories 에 추가
 ex)
 %JAVA_HOME%\include;%JAVA_HOME%\include\win32
-![set_jni_header_path.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/b62d48e0.png)
+![b62d48e0](https://user-images.githubusercontent.com/38425370/44067002-459e9648-9fae-11e8-8f78-c65dbc83e03e.png)
 
 - jvm library path 설정
 
 Project Properties>Linker>General>Additional Library Directories 에 추가
 ex)
 %JAVA_HOME%\lib;%JAVA_HOME%\jre\bin\server
-![set_jvm_path.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/70a252c7.png)
+![70a252c7](https://user-images.githubusercontent.com/38425370/44067027-66001e48-9fae-11e8-92e2-168b32ecf6a0.png)
 
 - jvm library dependency 설정
 
 Project Properties>Linker>Input>Additional Dependencies 에 jvm.lib 추가
-![set_jvm_dependency.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/2ebfc32f.png)
+![2ebfc32f](https://user-images.githubusercontent.com/38425370/44067052-7a58a432-9fae-11e8-98b0-dc6f642dc86f.png)
 
 - Exception setting 수정
 
 Debug>Windows>Exception Settings
 Access violation 체크 해제. 해제하지 않으면 실행 시, Access violation error 발생한다.
-![set_exception.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/8c1872f2.png)
+![8c1872f2](https://user-images.githubusercontent.com/38425370/44067065-865e8b7a-9fae-11e8-9e5b-bb23d89f11d0.png)
 
 - 실행
 
 Hello world 가 출력되는 것 확인.
-![run.png](:https://github.com/june0o/note/raw/master/attachments/90cffaae-174c-41f6-a4a9-a4afe4ea93ec/1973005f.png)
+![1973005f](https://user-images.githubusercontent.com/38425370/44067068-8d269d58-9fae-11e8-92b6-3cf2e80a5592.png)
 
 #### 2) linux 환경
 - /lib64/ 에 libjvm.so 심볼릭 링크 걸어줘야 함
@@ -133,4 +133,4 @@ LIBS := -ljvm
 - 실행
 
 Hello world 가 출력되는 것 확인.
-![run_linux.png](:storage\90cffaae-174c-41f6-a4a9-a4afe4ea93ec\5902498e.png)
+![5902498e](https://user-images.githubusercontent.com/38425370/44067076-972ec03c-9fae-11e8-8469-d446c367cd5e.png)
