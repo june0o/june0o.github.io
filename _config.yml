@@ -103,7 +103,7 @@ author:
   name             : "준영"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "건강한 개발자 입니다 :)"
-  location         : "pankyo"
+  location         : "pangyo"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
