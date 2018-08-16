@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "준영"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "건강한 개발자 입니다 :)"
+  bio              : "블로그 시작한 개발자 입니다 :)"
   location         : "pangyo"
   email            :
   uri              :
@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "github.com/june0o"
+  github           : "june0o"
   gitlab           :
   google_plus      :
   keybase          :
