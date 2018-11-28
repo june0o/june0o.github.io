@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "준영"
+  name             : "june0o"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "블로그 시작한 개발자 입니다 :)\n얼마나 갈런지 ..."
+  bio              : "블로그 시작한 개발자 입니다 :)"
   location         : "pangyo"
   email            :
   uri              :
